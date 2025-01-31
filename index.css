@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.footer .start {
+    margin: 0, 200px;
+    display: flex;
+}
+.start {
+    gap: 190px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.end p{
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.end h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.start h1 {
+    font-size: larger;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.socials i {
+    font-size: 30px;
+}
+
+#insta{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+#tg{
+    padding: 5px;
+    background-color: white;
+    color: rgb(88, 222, 255)
+}
+#face{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+#yt{
+    border-radius: 20px;
+    padding: 5px;
+    color: red;
+}
+#apple{ 
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+#google{
+    font-size: 30px;
+    color: rgb(193, 144, 47);
+}
+
+.app_play{
+    gap: 30px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
